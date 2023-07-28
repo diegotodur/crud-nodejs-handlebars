@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="/css/detalleshbs.css">
+<style>
+    #detalles-anime-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    border-radius: 1rem;
+}
+</style>
+<div class="container" id="detalles-anime-content">
+    {{> card nombre=anime.nombre genero=anime.genero id=anime.id  autor=anime.autor anio=anime.anio }}
+</div>

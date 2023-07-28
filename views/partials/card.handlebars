@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/css/cardhbs.css">
+
+<div class="card" id="div-main-card">
+  <div class="card-body" id="card-anime-id">
+
+    <h5 class="card-title">{{nombre}}</h5>
+    <p class="card-text">Género: {{genero}}</p>
+    <p class="card-text">ID: {{id}}</p>
+    <p class="card-text">Autor: {{autor}}</p>
+    <p class="card-text">Año: {{anio}}</p>
+    <a href="/editar/{{id}}" class="card-link btn btn-success">Editar</a>
+    <button class="btn btn-danger eliminar-anime" data-id="{{id}}">Eliminar</button>
+    
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/swet/sweetalert2.all.min.js"></script>
+<script src="/script/card-export-hbs.js"></script>

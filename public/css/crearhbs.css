@@ -1,0 +1,26 @@
+#div-crear-anime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ #card-form-crear{
+    background-color: #e6e4e4; 
+    width:25rem; 
+    height:30rem;
+    border-radius: 1rem;
+
+ }
+
+ #card-form-crear-content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+ }
+
+ .form-control {
+   background-color: #eeeeee;
+}
+

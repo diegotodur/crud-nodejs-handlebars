@@ -1,0 +1,35 @@
+#div-main-editar-anime{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#card-editar-anime{
+   border-radius: 2rem;
+   background-color: #e6e4e4; 
+   width:25rem; 
+   height:35rem;
+}
+
+#card-body-editar-anime{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.textarea{
+   text-align: center;
+   height: 3rem;
+   font-family:'Courier New', Courier, monospace;
+   background-color: #eeeeee; 
+}
+
+.btn{
+   margin-top: 1rem;
+}
+
+label{
+   font-family:'Courier New', Courier, monospace;
+   font-size: 1.1rem
+}

@@ -1,0 +1,21 @@
+#foto-main{
+    max-width: 20rem;
+    filter:grayscale();
+}
+#main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;        
+}
+
+h1{
+    color:rgb(126, 126, 126);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn{
+    margin-top: 1rem;
+    filter: grayscale();
+    font-family: 'Courier New', Courier, monospace;
+}

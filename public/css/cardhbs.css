@@ -1,0 +1,19 @@
+#div-main-card{
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: #e6e4e4;
+    width:16rem;
+    height: 17rem;
+    margin:3rem;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  #card-anime-id{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .btn{
+    filter: grayscale();
+  }

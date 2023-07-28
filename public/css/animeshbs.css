@@ -1,0 +1,20 @@
+#lista-animes{
+    display: flex;
+    margin-top:2rem;
+    justify-content: center;
+    align-items: center;
+}
+#animes-div{
+    justify-content: center;
+    align-items: center;
+}
+#sin-lista-animes{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sin-animes{
+    font-size: 2em;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+ .navbar {
+  position: absolute;
+  top: 0;
+  left: 51%;
+  transform: translateX(-50%);
+  height: 60px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #888;
+}

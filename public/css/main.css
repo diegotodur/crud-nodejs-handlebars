@@ -1,0 +1,5 @@
+body {
+    background-color: #dfdcdc;
+    display: grid;
+    min-height: 102vh;
+}
